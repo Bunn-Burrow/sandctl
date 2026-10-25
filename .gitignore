@@ -1,0 +1,15 @@
+# Compiled binaries
+/sandctl
+/bin/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
